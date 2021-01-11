@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500;900&display=swap');
+
+:root{
+    --primary-color: #7b1fa2;
+    --secondary-color: #E1CFF0;
+    --highlight-color: #FFC82F;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E1CFF0;
+}
+body{
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: none;
+}
+.app-header{
+    background-color: var(--primary-color);
+    box-shadow: 3px 3px 10px #888;
+    border-radius: 0 0 40px 40px;
+    
+}
+.app-header .container{
+   
+}
+
+.app-header h1{
+    text-align: center;
+    color: var(--highlight-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+.app-header img{
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+.grid .item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+    border-radius: 30px;
+    background:  rgb(255, 255, 255,0.2);
+    filter: blur(0.1px);
+}
+.grid .item img{
+    margin-bottom: 30px;
+    margin-top: 6px;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    
+}
+.grid .item button{
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: var(--primary-color);
+    font-family: 'Poppins';
+    font-size: 16.2px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 18px;
+}
+.notification{
+    background: var(--primary-color);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.content{
+ display: flex;
+ flex-wrap: wrap;
+}
+.content p{
+    font-size: 18px;
+}
+.fa-bell{
+    color: #FFC82F;
+    font-size: 32px;
+
+}
+
+
