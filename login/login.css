@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E1CFF0;
+    height: 100vh;
+}
+header{
+    background: url(/assets/shape.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    height: 172px;
+}
+header > h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+.container .signup{
+    margin: auto;
+
+}
+.img-avatar{
+    display: flex;
+    padding-top: 30px;
+}
+.img-avatar img{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 200px;
+    width: auto;
+    border: 2 px solid #000;
+   
+}
+.input-field{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.input-field::placeholder{
+    color: #828282;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.input-field input{
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 350px;
+    color: #828282;
+    font-size: 18px;
+    font-family: 'font-family', sans-serif;
+    padding-left: 30px;
+}
+
+#btn{
+    color: #fff;
+    background: #5f10a9;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.info{
+    padding: 20px 0;
+}
+.info p{
+    text-align: center;
+}
+.info .reset{
+    color: #5f10a9 !important;
+}

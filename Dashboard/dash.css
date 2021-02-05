@@ -17,9 +17,12 @@ html,body{
 body{
     height: 100vh;
 }
+.dashboard{
+    margin: auto;
+  
+}
 .container{
-    width: 90%;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px;
     overflow: none;
 }
@@ -28,9 +31,13 @@ body{
     box-shadow: 3px 3px 10px #888;
     border-radius: 0 0 40px 40px;
     
+    
 }
 .app-header .container{
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 .app-header h1{
@@ -38,10 +45,10 @@ body{
     color: var(--highlight-color);
     font-family: 'Roboto';
     font-weight: 600;
-    margin: 20px 0 20px 0;
+   
 }
 .app-header img{
-    
+   width: 130px;
 }
 
 .grid{
@@ -66,7 +73,7 @@ body{
     border-radius: 100%;
     padding: 10px;
     margin: 0 auto 0 auto;
-    
+
 }
 .grid .item button{
     color: #ffffff;
@@ -94,11 +101,16 @@ body{
 }
 .content p{
     font-size: 18px;
+    color: gray;
 }
 .fa-bell{
     color: #FFC82F;
     font-size: 32px;
-
 }
 
-
+@media only screen and (min-width: 768px){
+    .dashboard{
+        width: 50%;
+        height: fit-content;
+    }
+}
